@@ -1,6 +1,7 @@
 name: mon ci
 on:
-  push: branches:[main,feature-readme]
+  push:
+    branches: [main, feature-readme]
 jobs:
   Construction:
     runs-on: ubuntu-latest
